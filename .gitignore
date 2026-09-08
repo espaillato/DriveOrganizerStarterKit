@@ -8,6 +8,19 @@ desktop.ini
 .idea/
 *.swp
 
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+.secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+client_secret*.json
+service-account*.json
+
 # Obsidian's own local config (if you open Living_Reference_Template as a vault to test it)
 .obsidian/
 
