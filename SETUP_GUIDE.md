@@ -46,6 +46,8 @@ The category folders, `Unsorted/` (your inbox — new downloads/scans land here 
 
 You don't strictly need Obsidian to use this system — any Google-Drive-connected AI session can read and write these Markdown files directly. Obsidian just makes the `[[wikilinks]]`, callout blocks, and note graph pleasant for a human to browse. If you skip it, the notes remain plain Markdown and everything else in this guide still applies.
 
+**If you're on Google Drive, install the [Google Drive Markdown Preview](https://chromewebstore.google.com/detail/google-drive-markdown-pre/mcggigjpaggcpngfcgcdconaijliicda) Chrome extension.** Drive's own preview shows a `.md` file as unformatted plain text — headings, tables, and callouts all collapse into raw syntax. This extension renders the file properly in the desktop browser preview instead, which matters here specifically because you'll often want to glance at a dashboard from Drive's web UI without opening the local Obsidian vault. It's a convenience for reading, not a requirement — Obsidian remains the primary way to edit.
+
 ## 4. Give Claude access
 
 However you're running Claude (a desktop app with connected folders, a web session with a Drive connector, or similar), connect it to both your File Archive and Living Reference folders. `AGENTS.md` and `CLAUDE.md` at the root of the Living Reference vault are one-line pointers that tell any AI agent to read `00_README_Living_Reference_System.md` first — make sure whatever tool you're using actually loads project-level instruction files like these, or paste the README's contents into your first session manually.
